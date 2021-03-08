@@ -83,19 +83,5 @@
 			</script>
 		</aside>
 	</div>
-	<script>
-		var canvas = document.getElementById("box01");
-		var ctx = canvas.getContext("2d");
-		var ang = 0;
-		setInterval(frame, 10);
-		function frame () {
-			ctx.clearRect(0, 0, 100, 100);
-			ctx.beginPath();
-			ctx.moveTo(Math.sin(ang * Math.PI / 180) * 10 + 10, 10);
-			ctx.lineTo(10, Math.cos(ang * Math.PI / 180) * 10 + 10);
-			ctx.stroke();
-			ang++;
-		}
-	</script>
 </body>
 </html>
