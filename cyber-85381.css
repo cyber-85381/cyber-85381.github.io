@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
 html {
 	min-height: 100%;
 	background-color: #999999;
 	background-image: linear-gradient(-10deg, #000000, #DDDDDD);
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: "open Sans", sans-serif;
 	position: relative;
 }
 body {
@@ -76,6 +78,7 @@ p {
 	margin: 0;
 }
 h1 {
+	font-family: "Montserrat", sans-serif;
 	font-size: 32px;
 	margin: 0;
 	text-align: center;
