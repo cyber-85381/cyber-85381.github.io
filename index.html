@@ -1,1 +1,103 @@
-<h1>:Intentionally Blank:</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="cyber-85381.css">
+</head>
+<body>
+	<header>
+		<h1>webFun</h1>
+	</header>
+	<section>
+		<article class="box">
+			<div style="width: 100px; height: 100px;">
+				<canvas id="box01" width="100px" height="100px"></canvas>
+			</div>
+		</article>
+	</section>
+	<section>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+	</section>
+	<section>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+	</section>
+	<section>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+	</section>
+	<section>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in inventore, natus sint quidem consequatur, corrupti a voluptates magni, quaerat perspiciatis quas dignissimos qui quos accusamus sed omnis optio alias?</p>
+		</article>
+		<article class="txt">
+			<details>
+				<summary>Title</summary>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa maiores deserunt aperiam fuga, ullam numquam repellendus tempora, placeat reiciendis minima fugiat facere dicta eos distinctio aliquid velit obcaecati id porro?</p>
+			</details>
+		</article>
+	</section>
+	<div id="sidecont">
+		<button onclick="openNav();">open nav</button>
+		<aside id="sidebar">
+			<button onclick="closeNav();">close nav</button>
+			<p>various contents</p>
+			<script>
+				function openNav() {
+					document.getElementById("sidebar").style.width = "100%";
+				}
+				function closeNav() {
+					document.getElementById("sidebar").style.width = "0";
+				}
+			</script>
+		</aside>
+	</div>
+	<script>
+		var canvas = document.getElementById("box01");
+		var ctx = canvas.getContext("2d");
+		var ang = 0;
+		setInterval(frame, 10);
+		function frame () {
+			ctx.clearRect(0, 0, 100, 100);
+			ctx.beginPath();
+			ctx.moveTo(Math.sin(ang * Math.PI / 180) * 50 + 50, 50);
+			ctx.lineTo(50, Math.cos(ang * Math.PI / 180) * 50 + 50);
+			ctx.stroke();
+			ang++;
+		}
+	</script>
+</body>
+</html>
