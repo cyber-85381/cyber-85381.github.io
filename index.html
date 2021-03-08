@@ -10,7 +10,7 @@
 	<section>
 		<article class="box">
 			<div style="width: 100px; height: 100px;">
-				<canvas id="box01" width="100px" height="100px"></canvas>
+				<canvas id="box01" width="20px" height="20px"></canvas>
 			</div>
 			<p class="txt">Don't worry, content is coming soon</p>
 		</article>
@@ -94,8 +94,8 @@
 		function frame () {
 			ctx.clearRect(0, 0, 100, 100);
 			ctx.beginPath();
-			ctx.moveTo(Math.sin(ang * Math.PI / 180) * 50 + 50, 50);
-			ctx.lineTo(50, Math.cos(ang * Math.PI / 180) * 50 + 50);
+			ctx.moveTo(Math.sin(ang * Math.PI / 180) * 10 + 10, 10);
+			ctx.lineTo(10, Math.cos(ang * Math.PI / 180) * 10 + 10);
 			ctx.stroke();
 			ang++;
 		}
