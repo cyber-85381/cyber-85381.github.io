@@ -48,6 +48,7 @@ section {
 /*sidebar*/
 button {
 	width: 64px;
+	color: #ffffff;
 	background-color: #000000;
 }
 #sidecont {
