@@ -46,6 +46,10 @@ section {
 }
 
 /*sidebar*/
+button {
+	width: 64px;
+	background-color: #000000;
+}
 #sidecont {
 	position: absolute;
 	top: 64px;
