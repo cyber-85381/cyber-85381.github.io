@@ -54,6 +54,12 @@ button {
 	background-color: #222222;
 	border: none;
 }
+details {
+	left: 0.5rem;
+}
+summary {
+	left: -0.5rem;
+}
 #sidecont {
 	position: absolute;
 	top: 4rem;
