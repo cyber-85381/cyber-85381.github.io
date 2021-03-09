@@ -72,6 +72,9 @@ button {
 	overflow: hidden;
 	transition-duration: 0.5s;
 }
+.nav {
+	margin-left: 0.5rem;
+}
 
 /*text*/
 p {
