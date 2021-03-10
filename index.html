@@ -72,19 +72,23 @@
 		<button type="button" onclick="openNav();">open nav</button>
 		<aside id="sidebar">
 			<button type="button" onclick="closeNav();">close nav</button>
-			<p class="nav">
-				various contents
+			<div class="nav">
+				<p>various contents</p>
 				<details>
 					<summary>section name</summary>
-					link to a page<br>
-					link to another page<br>
+					<p>
+						link to a page<br>
+						link to another page<br>
+					</p>
 					<details>
 						<summary>subsection</summary>
-						page in subsection<br>
-						another page in subsection
+						<p>
+							page in subsection<br>
+							another page in subsection
+						</p>
 					</details>
 				</details>
-			</p>
+			</div>
 			<script>
 				function openNav() {
 					document.getElementById("sidebar").style.left = "0";
