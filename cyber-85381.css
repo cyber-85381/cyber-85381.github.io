@@ -27,6 +27,7 @@ header {
 }
 section {
 	width: 70%;
+	max-width: 70vw;
 	margin: 0 15% 1rem;
 	display: flex;
 }
