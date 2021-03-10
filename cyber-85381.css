@@ -3,6 +3,9 @@
 html {
 	font-family: "open Sans", sans-serif;
 }
+body {
+	bg-color: #000000;
+}
 /*layout*/
 header {
 	background-color: #333333;
