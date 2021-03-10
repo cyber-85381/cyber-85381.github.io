@@ -1,106 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
 
 html {
-	min-height: 100%;
-	background-color: #999999;
-	background-image: linear-gradient(-10deg, #000000, #DDDDDD);
-	font-size: 16px;
 	font-family: "open Sans", sans-serif;
-	position: relative;
 }
-body {
-	margin: 0;
-}
-
-/*bootstrap + angular js*/
-
-
 /*layout*/
 header {
-	width: 100%;
-	height: 4rem;
 	background-color: #333333;
-	vertical-align: middle;
-	display: inline-block;
 	color: #ffffff;
-	margin-bottom: 1rem;
-}
-section {
-	width: 70%;
-	margin: 0 15% 1rem;
-	display: flex;
-	flex-wrap: wrap;
 }
 article {
-	width: 100%;
-	margin: 0 0.5rem;
 	background-color: #666666;
 }
 .txt {
 	color: #ffffff;
-	padding: 0.5rem;
-	border-radius: 6px;
 }
-.box {
-	padding: 0;
-	border-radius: 6px;
-	overflow: hidden;
-}
-
-/*sidebar*/
-button {
-	position: fixed;
-	top: 4rem;
-	left: 0;
-	width: 4rem;
-	color: #ffffff;
-	background-color: #222222;
-	border: none;
-}
-button:hover {
-	background-color: #111111;
-}
-details {
-	margin-left: 0.5rem;
-}
-summary {
-	margin-left: -0.5rem;
-}
-#sidecont {
-	position: absolute;
-	top: 4rem;
-	bottom: 0;
-	width: 15%;
-	overflow-x: hidden;
-}
-#sidebar {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: -100%;
-	width: 100%;
-	background-color: #666666;
-	color: #ffffff;
-	overflow: hidden;
-	transition-duration: 0.5s;
-}
-.nav {
-	margin-left: 0.5rem;
-}
-
 /*text*/
-p {
-	margin: 0;
-}
 h1 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 32px;
-	margin: 0;
-	text-align: center;
-	margin: 1rem 0;
-}
-
-canvas {
-	width: 100%;
-	height: 100%;
 }
